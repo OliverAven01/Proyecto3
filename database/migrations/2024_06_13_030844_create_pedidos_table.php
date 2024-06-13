@@ -9,10 +9,12 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    public function up(): void
+    public function up()
     {
         Schema::create('pedidos', function (Blueprint $table) {
-            $table->id();
+            $table->increments('idPedido');
+            $table->date('fecha');
+            $table->string('estado');
             $table->timestamps();
         });
     }

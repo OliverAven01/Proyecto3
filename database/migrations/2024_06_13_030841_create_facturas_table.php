@@ -9,10 +9,12 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    public function up(): void
+    public function up()
     {
         Schema::create('facturas', function (Blueprint $table) {
-            $table->id();
+            $table->increments('idFactura');
+            $table->date('fecha');
+            $table->double('total');
             $table->timestamps();
         });
     }

@@ -9,10 +9,12 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    public function up(): void
+    public function up()
     {
         Schema::create('inventarios', function (Blueprint $table) {
-            $table->id();
+            $table->increments('idlngrediente');
+            $table->string('nombre');
+            $table->integer('cantidad');
             $table->timestamps();
         });
     }
