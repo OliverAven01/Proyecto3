@@ -17,9 +17,9 @@
         <tbody>
             @foreach($pollos as $pollo)
                 <tr>
-                    <td>{{ $pollo->nombre }}</td>
-                    <td>{{ $pollo->raza }}</td>
-                    <td>{{ $pollo->peso }} kg</td>
+                    <td>{{ $pollo['nombre'] }}</td>
+                    <td>{{ $pollo['raza'] }}</td>
+                    <td>{{ $pollo['peso'] }} kg</td>
                     <td>
                         <a href="{{ route('pollos.show', $pollo->id) }}" class="btn btn-sm btn-info">Ver</a>
                         <a href="{{ route('pollos.edit', $pollo->id) }}" class="btn btn-sm btn-warning">Editar</a>
