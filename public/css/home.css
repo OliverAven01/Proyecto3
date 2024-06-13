@@ -1,0 +1,164 @@
+header div div .btn{
+  font-size: 90%
+}
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background: url(https://c4.wallpaperflare.com/wallpaper/569/819/756/food-indian-pollo-wallpaper-thumb.jpg);
+  background-size: cover;
+}
+.encabezado, .subencabezado{
+  text-shadow: 1px 1px 2px rgb(213, 255, 5);
+}
+.subencabezado{
+  color: #aaa;
+}
+.d{
+  color: #fff;
+}
+.fixed-top{
+  left: 80%;
+  top: 10%;
+  height: 5.5em;
+  width: 5.5em;
+}
+.fixed-top a button{
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  background-image: url(../Imagenes/Subir.JPG);
+  background-size: cover;
+}
+.fixed-top:hover{
+  transform: rotate(360deg);
+  transition: 1.5s;
+}
+.nav-item{
+  width: 15%;
+  text-align: center;
+  margin: 1% 1% 1% 1%;
+}
+.nav-link{
+  border-radius: 10px;
+  width: 100%;
+}
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+.card{
+  overflow: hidden;
+}
+.container-img{
+  overflow: hidden;
+}
+.card:hover .container-img img{
+  transition: 0.25s;
+  transform: scale(1.05);
+}
+.card:hover{
+  transition: 0.25s;
+  background: #ededed;
+  color: black;
+  cursor: pointer;
+}
+.cuerpo{
+  background-color: #FFF733;
+}
+.card-img-top{
+  height: 225px; 
+  width: 100%; 
+  display: block;
+}
+footer {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+footer .redes{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+footer .redes a{
+  color: #fff;
+  font-size: 360%;
+  transition: all 0.25s;
+  padding: 0% 5px;
+}
+footer .redes a:nth-child(1):hover i{
+  color: rgb(2, 30, 121);
+  background-color: #fff;
+}
+footer .redes a:nth-child(2):hover i{
+  color: rgb(28, 134, 196);
+  background-color: #fff;
+}
+footer .redes a:nth-child(3):hover i{
+  color: rgb(209, 27, 27);
+  background-color: #fff;
+}
+footer p{
+  font-size:80%;
+  font-style: italic;
+}
+/*Nosotros.css*/
+.nosotros .jumbotron {
+  height: 35rem;
+}
+.nosotros .contenedor01{
+  background-image: url(../Imagenes/fondo4.jpg);
+  background-size: cover;
+}
+.nosotros .contenedor02{
+  background-image: url(../Imagenes/fondo3.jpg);
+  background-size: cover;
+}
+.nosotros .contenedor03{
+  background-image: url(../Imagenes/fondo2.jpg);
+  background-size: cover;
+}
+.mask1,.mask2,.mask3{
+  height: 25rem;
+  padding: 8%;
+  border-color: #fff700;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.mask1,.mask3{
+  position: relative;
+  right: 20em;
+}
+.mask2{
+  position: relative;
+  right: -20em;
+}
+.mask1,.mask2,.mask3{
+  font-family: arial;
+}
+.subencabezado{
+  font-family: 'Calibri Light';
+  text-align: justify;
+  color:#ededed
+}
+@media (max-width: 768px) {
+  .mask1,.mask2,.mask3{
+    position: static;
+  }
+}
