@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Seeders;
-// database/seeders/MesaSeeder.php
+
 use App\Models\Mesa;
 use Illuminate\Database\Seeder;
 

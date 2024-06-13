@@ -24,11 +24,6 @@ class DatabaseSeeder extends Seeder
             BoletaSeeder::class,
             PedidoSeeder::class,
         ]);
-        // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
     }
 }

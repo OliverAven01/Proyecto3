@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Seeders;
-// database/seeders/FacturaSeeder.php
+
 use App\Models\Factura;
 use Illuminate\Database\Seeder;
 

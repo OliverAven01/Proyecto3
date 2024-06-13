@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Factories;
-// database/factories/PlatilloFactory.php
+
 use App\Models\Platillo;
 use Illuminate\Database\Eloquent\Factories\Factory;
 

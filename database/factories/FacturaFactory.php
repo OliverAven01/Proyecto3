@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Factories;
-// database/factories/FacturaFactory.php
+
 use App\Models\Factura;
 use Illuminate\Database\Eloquent\Factories\Factory;
 

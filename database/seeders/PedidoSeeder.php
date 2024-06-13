@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Seeders;
-// database/seeders/PedidoSeeder.php
+
 use App\Models\Pedido;
 use Illuminate\Database\Seeder;
 

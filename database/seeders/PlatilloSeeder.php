@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Seeders;
-// database/seeders/PlatilloSeeder.php
+
 use App\Models\Platillo;
 use Illuminate\Database\Seeder;
 

@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Seeders;
-// database/seeders/InventarioSeeder.php
+
 use App\Models\Inventario;
 use Illuminate\Database\Seeder;
 

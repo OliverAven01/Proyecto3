@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Seeders;
-// database/seeders/BoletaSeeder.php
+
 use App\Models\Boleta;
 use Illuminate\Database\Seeder;
 

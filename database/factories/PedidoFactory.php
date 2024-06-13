@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Factories;
-// database/factories/PedidoFactory.php
+
 use App\Models\Pedido;
 use Illuminate\Database\Eloquent\Factories\Factory;
 

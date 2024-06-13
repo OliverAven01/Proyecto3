@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Factories;
-// database/factories/ReporteFactory.php
+
 use App\Models\Reporte;
 use Illuminate\Database\Eloquent\Factories\Factory;
 

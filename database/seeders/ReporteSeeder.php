@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Seeders;
-// database/seeders/ReporteSeeder.php
+
 use App\Models\Reporte;
 use Illuminate\Database\Seeder;
 
