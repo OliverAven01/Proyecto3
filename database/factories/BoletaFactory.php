@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Factories;
-// database/factories/BoletaFactory.php
+
 use App\Models\Boleta;
 use Illuminate\Database\Eloquent\Factories\Factory;
 

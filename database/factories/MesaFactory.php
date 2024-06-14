@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Factories;
-// database/factories/MesaFactory.php
+
 use App\Models\Mesa;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
